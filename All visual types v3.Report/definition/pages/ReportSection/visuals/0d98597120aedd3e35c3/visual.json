@@ -1,54 +1,32 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
-  "name": "c9325d2002e0a74adc04",
+  "name": "0d98597120aedd3e35c3",
   "position": {
     "x": 0,
-    "y": 365.33772652388797,
-    "z": 2000,
-    "height": 354.66227347611203,
-    "width": 863.52553542009889
+    "y": 0,
+    "z": 0,
+    "height": 328,
+    "width": 472
   },
   "visual": {
-    "visualType": "treemap",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
-        "Details": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "DimProduct"
-                    }
-                  },
-                  "Property": "Class"
-                }
-              },
-              "queryRef": "DimProduct.Class"
-            }
-          ]
-        },
-        "Group": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "DimProduct"
-                    }
-                  },
-                  "Property": "Color"
-                }
-              },
-              "queryRef": "DimProduct.Color",
-              "active": true
-            }
-          ]
-        },
         "Values": {
           "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimGeography"
+                    }
+                  },
+                  "Property": "EnglishCountryRegionName"
+                }
+              },
+              "queryRef": "DimGeography.EnglishCountryRegionName"
+            },
             {
               "field": {
                 "Aggregation": {
@@ -69,6 +47,29 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "FactInternetSales"
+                      }
+                    },
+                    "Property": "SalesAmount"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true

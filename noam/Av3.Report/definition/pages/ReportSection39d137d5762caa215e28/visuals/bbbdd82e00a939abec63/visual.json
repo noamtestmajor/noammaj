@@ -120,10 +120,24 @@
       "sandDanceConfig": [
         {
           "properties": {
+            "setupJSON": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"renderer\":{\"advanced\":false,\"advancedOptions\":{\"bloomIntensity\":2,\"isBloomEnabled\":false,\"isDofEnabled\":false,\"dofFocusRange\":0.25,\"isFxaaEnabled\":false,\"isShadowEnabled\":true,\"isSsaoEnabled\":true},\"basicOptions\":{\"antialias\":true}},\"transition\":{\"type\":\"ordinal\"},\"transitionDurations\":{\"position\":600,\"stagger\":600,\"view\":600}}'"
+                }
+              }
+            },
             "insightJSON": {
               "expr": {
                 "Literal": {
-                  "Value": "'{\"columns\":{\"x\":\"SalesAmount\",\"y\":\"EnglishCountryRegionName\",\"color\":\"TaxAmt\",\"sort\":\"EnglishCountryRegionName\",\"size\":\"SalesAmount\"},\"directColor\":false,\"hideAxes\":false,\"hideLegend\":false,\"scheme\":\"redyellowgreen\",\"signalValues\":{\"RoleZ_ProportionSignal\":0.6,\"Text_ScaleSignal\":2,\"Text_AngleXSignal\":30,\"Text_AngleYSignal\":0,\"Mark_OpacitySignal\":0.85,\"RoleX_BinsSignal\":4,\"RoleColor_BinCountSignal\":7,\"RoleColor_ReverseSignal\":false},\"chart\":\"barchartV\",\"view\":\"2d\"}'"
+                  "Value": "'{\"columns\":{\"x\":\"SalesAmount\",\"y\":\"EnglishCountryRegionName\",\"color\":\"TaxAmt\",\"sort\":\"EnglishCountryRegionName\",\"size\":\"SalesAmount\"},\"directColor\":false,\"facetStyle\":\"wrap\",\"hideAxes\":false,\"hideLegend\":false,\"scheme\":\"redyellowgreen\",\"signalValues\":{\"RoleZ_ProportionSignal\":0.6,\"Text_ScaleSignal\":2,\"RoleColor_BinCountSignal\":7,\"RoleColor_ReverseSignal\":false,\"RoleX_BinsSignal\":4},\"chart\":\"barchartV\",\"view\":\"2d\"}'"
+                }
+              }
+            },
+            "snapshotsJSON": {
+              "expr": {
+                "Literal": {
+                  "Value": "'[]'"
                 }
               }
             },
@@ -131,6 +145,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'[]'"
+                }
+              }
+            },
+            "imageHolderJSON": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"img\":null,\"backgroundImageColumnBounds\":[{\"columnName\":\"SalesAmount\",\"dimension\":\"x\",\"valid\":true,\"dataExtent\":\"max\",\"numericValue\":795157.9387,\"stringValue\":\"795157.9387\"},{\"columnName\":\"SalesAmount\",\"dimension\":\"x\",\"valid\":true,\"dataExtent\":\"min\",\"numericValue\":4.99,\"stringValue\":\"4.99\"},{\"columnName\":\"SalesAmount\",\"dimension\":\"y\",\"valid\":true,\"dataExtent\":\"max\",\"numericValue\":795157.9387,\"stringValue\":\"795157.9387\"},{\"columnName\":\"SalesAmount\",\"dimension\":\"y\",\"valid\":true,\"dataExtent\":\"min\",\"numericValue\":4.99,\"stringValue\":\"4.99\"},{\"columnName\":\"TaxAmt\",\"dimension\":\"x\",\"valid\":true,\"dataExtent\":\"max\",\"numericValue\":63612.6365,\"stringValue\":\"63612.6365\"},{\"columnName\":\"TaxAmt\",\"dimension\":\"x\",\"valid\":true,\"dataExtent\":\"min\",\"numericValue\":0.3992,\"stringValue\":\"0.3992\"},{\"columnName\":\"TaxAmt\",\"dimension\":\"y\",\"valid\":true,\"dataExtent\":\"max\",\"numericValue\":63612.6365,\"stringValue\":\"63612.6365\"},{\"columnName\":\"TaxAmt\",\"dimension\":\"y\",\"valid\":true,\"dataExtent\":\"min\",\"numericValue\":0.3992,\"stringValue\":\"0.3992\"}],\"showBackgroundImage\":false}'"
                 }
               }
             }

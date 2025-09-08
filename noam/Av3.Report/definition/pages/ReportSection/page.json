@@ -8,7 +8,8 @@
   "pageBinding": {
     "name": "Pod4",
     "type": "Default",
-    "parameters": []
+    "parameters": [],
+    "acceptsFilterContext": "None"
   },
   "objects": {
     "outspace": [

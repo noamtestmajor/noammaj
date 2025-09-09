@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.1.0/schema.json",
   "metadata": {
     "type": "SemanticModel",
-    "displayName": "FamilyBM2M v3",
+    "displayName": "gggg",
     "sensitivityLabelId": "00000000-0000-0000-0000-000000000000"
   },
   "config": {
     "version": "2.1",
-    "logicalId": "bd727ed6-3e50-9735-488f-85264c59ba29"
+    "logicalId": "da7d9bf3-27e3-9c9a-48b5-68c58d7c13a4"
   }
 }

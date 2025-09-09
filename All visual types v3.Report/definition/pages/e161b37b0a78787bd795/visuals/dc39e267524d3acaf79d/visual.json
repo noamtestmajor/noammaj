@@ -1,16 +1,15 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
-  "name": "07a3005ee33765dc6bac",
+  "name": "dc39e267524d3acaf79d",
   "position": {
-    "x": 472,
+    "x": 10,
     "y": 0,
-    "z": 2001,
-    "height": 328,
-    "width": 392,
-    "tabOrder": 1
+    "z": 0,
+    "height": 280,
+    "width": 280
   },
   "visual": {
-    "visualType": "FlowVisual_C29F1DCC_81F5_4973_94AD_0517D44CC06A",
+    "visualType": "tableEx",
     "drillFilterOtherVisuals": true
   }
 }

@@ -103,17 +103,6 @@
       ]
     },
     {
-      "name": "RegisteredResources",
-      "type": "RegisteredResources",
-      "items": [
-        {
-          "name": "northern-lights-lake-thingvellir-national-park-iceland8344551184113973.jpg",
-          "path": "northern-lights-lake-thingvellir-national-park-iceland8344551184113973.jpg",
-          "type": "Image"
-        }
-      ]
-    },
-    {
       "name": "SharedResources",
       "type": "SharedResources",
       "items": [
